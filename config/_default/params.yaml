@@ -1,7 +1,6 @@
 colorScheme: ocean
 defaultAppearance: dark
 autoSwitchAppearance: false
-#logo: blowfish_logo_transparent.png
 
 header:
   layout: fixed
@@ -11,8 +10,8 @@ footer:
   showAppearanceSwitcher: true
   showMenu: true
   showCopyright: true
-  showScrollToTop: true
+  showScrollToTop: false
 
 homepage:
   layout: background
-  homepageImage: background.jpg
+  homepageImage: background.webp

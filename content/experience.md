@@ -4,6 +4,8 @@ date = "2023-04-24"
 aliases = ["technologies", "tech-stack"]
 draft = false
 enableComments = false
+showAuthor = false
+showPagination = false
 
 +++
 
@@ -144,7 +146,7 @@ This comprehensive (and still incomplete) list represents a wide range of techno
 
   {{< timelineItem header="And most importantly" icon="cloud-network" >}}
   <ul>
-    <li>ChatGPT 4</li>
+    <li>ChatGPT 4 ❤️</li>
   </ul>
   {{< /timelineItem >}}
 {{< /timeline >}}

@@ -5,6 +5,8 @@ date = "2023-03-12"
 aliases = ["about-me"]
 author = "Emanuel Mairoll"
 enableComments = false
+showAuthor = true
+showPagination = false
 
 +++
 
@@ -34,4 +36,4 @@ When I'm not busy with work or studying, I love to let loose and have some fun. 
 
 My passion for technology is always with me. I've dived into loads of hardware and software projects, turning every corner of my apartment into a smart space. One of my proudest (and, okay, maybe a bit silly) achievements is my electrically extendable sofa that I can control with my phone. These personal projects are a blast and super educational, helping me learn new skills and broaden my knowledge.
 
-As I continue to pursue my passion for technology in both my personal and professional life, I'm always on the lookout for new challenges. Eager to learn, grow, and share my experiences with others, my journey has been filled with ups and downs, but I wouldn't trade it for anything. I'm excited to see what the future holds and how technology will continue to shape our world.
+I'm always on the lookout for new challenges. Eager to learn, grow, and share my experiences with others, my journey has been filled with ups and downs, but I wouldn't trade it for anything. I'm excited to see what the future holds and how technology will continue to shape our world.

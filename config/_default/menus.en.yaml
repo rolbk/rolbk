@@ -15,5 +15,9 @@ main:
     url: 'https://github.com/EmanuelMairoll'
     weight: 50
 footer:
+  - name: Acknowledgements
+    pageRef: acknowledgements
+    weight: 10
   - name: Privacy
     pageRef: privacy
+    weight: 20

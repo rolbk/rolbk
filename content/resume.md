@@ -4,6 +4,9 @@ date = "2023-04-24"
 aliases = ["resume", "education", "work-experiences"]
 draft = false
 enableComments = false
+showAuthor = false
+showPagination = false
+
 +++
 
 ## Education
