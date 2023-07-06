@@ -35,16 +35,24 @@ showPagination = false
 | 07/2019 - 07/2020    | **Civil Service (regular and extraordinary)** |
 | 09/2020 - 12/2020    | **Raiffeisen - ORG/IT Software development**          |
 | 01/2021 - present   | **Authentic Vision - Engineering**                    |
-## Projects
+## Employments
 
 ### Authentic Vision
 
-- Improved the iOS app and rebuilt the complete UI using SwiftUI
-- Restructured the backend to enable "Distributed Authentication"
-- Conducted extensive refactoring to adapt to the new backend infrastructure and remove outdated libraries
-- Extracted efficient Kotlin microservices from the Java monolith
-- Implemented a versatile scripting configuration system
-- Built a Go service that allows internal app distribution
+#### Mobile App Development
+
+* Redesigned and optimitzed the scan interface and app navigation, working closely with an external UX design agency to simplify the scanning process and enhance the user experience.
+* Transformed the codebase using SwiftUI (iOS) and Jetpack Compose (Android), moved to Swift Package Manager for iOS Dependency Management, and simplified cross-platform translations, enabling quicker development cycles.
+* Replaced Firebase notification services on iOS with a proprietary solution, cutting down app size by approximately 30% and reducing maintenance effort significantly.
+* Migrated the white-label application from Obj-C to Swift on iOS and developed tailored versions for various customers on both platforms.
+* Introduced various development features in the iOS app such as a recording service that interfaces with our internal S3, a new internal logging framework, and multiple in-app-debug functions, enhancing the development experience and promoting a clean, efficient workflow.
+
+#### Backend Development
+
+* Created a versatile in-house app distribution system that integrates with the CI/CD pipeline of the mobile apps, allowing for easy internal and external evaluation of different testing builds.
+* Reengineered the delivery of In-App Notifications by splitting notification processing into a separate microservice and implementing APNS and FCM for push notifications, resulting in improved maintainability and scalability.
+* Implemented a custom solution to restrict scanning operations to specific apps, thereby ensuring the maintenance of client data segregation.
+* Established a Lua-based solution for dynamic feature management and A/B testing, which provides flexibility for feature rollouts and supports data-driven decision-making.
 
 ### Raiffeisen
 
