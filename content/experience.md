@@ -9,145 +9,49 @@ showPagination = false
 
 +++
 
-This comprehensive (and still incomplete) list represents a wide range of technologies that I have either used extensively, am familiar with, or have had some experience with throughout my career. The list encompasses various areas, such as frontend and backend development, mobile development, databases, cloud and hosting services, operating systems, containerization and orchestration, and more.
+This comprehensive list represents a wide range of technologies that I have either used extensively, am familiar with, or have had some experience with throughout my career. The list encompasses various areas, such as frontend and backend development, mobile development, databases, cloud and hosting services, operating systems, containerization and orchestration, and more.
 
 {{< timeline >}}
-  {{< timelineItem header="Backend Development" icon="cog" >}}
-  <ul>
-    <li>Kotlin</li>
-    <li>Go</li>
-    <li>Java</li>
-    <li>C++</li>
-    <li>Python</li>
-    <li>Lua</li>
-    <li>Bash/Zsh</li>
-  </ul>
-  {{< /timelineItem >}}
 
-  {{< timelineItem header="Mobile Development" icon="mobile" >}}
+{{< timelineItem header="Primary Skills" icon="code" >}}
+These are the areas in which I have the most experience and feel the most comfortable. They are at the core of my work as a backend and mobile developer.
   <ul>
-    <li>Swift</li>
-    <li>Objective-C</li>
-    <li>UIKit</li>
-    <li>SwiftUI</li>
-    <li>Java</li>
-    <li>Kotlin</li>
-    <li>Jetpack Compose</li>
+    <li><strong>Backend Development:</strong> Kotlin, Go, Java, C++, Python</li>
+    <li><strong>Mobile Development:</strong> Swift, Kotlin, Objective-C, Java, UIKit, SwiftUI, Jetpack Compose</li>
+    <li><strong>Databases & Storage:</strong> PostgreSQL, MongoDB, Amazon S3, IBM Db2</li>
+    <li><strong>Containerization & Orchestration:</strong> Docker, Kubernetes, Talos, Traefik, Earthly</li>
+    <li><strong>Cloud & (Self-)Hosting:</strong> vSphere, Proxmox, Amazon EC2, Heroku</li>
+    <li><strong>Continuous Integration & Deployment:</strong> Git, GitHub Actions, GitLab CI/CD, Jenkins</li>
   </ul>
-  {{< /timelineItem >}}
+{{< /timelineItem >}}
 
-  {{< timelineItem header="Frontend Development" icon="code" >}}
+{{< timelineItem header="Additional Technical Skills" icon="cog" >}}
+These skills complement my primary skill set and have been used in various projects.
   <ul>
-    <li>HTML5</li>
-    <li>JavaScript</li>
-    <li>Bootstrap</li>
-    <li>Tailwind</li>
-    <li>React</li>
-    <li>Hugo</li>
+    <li><strong>Frontend Development:</strong> HTML5, JavaScript, Bootstrap, Tailwind, React, Hugo (powers this site)</li>
+    <li><strong>Networking & Security:</strong> nmap, Burp Suite, John the Ripper, Metasploit, linPEAS, gobuster, hydra</li>
+    <li><strong>Assembly & Reverse Engineering:</strong> Hopper Disassembler, Ghidra, x86, ARM and RISC-V Assembly</li>
+    <li><strong>IoT & Home Automation:</strong> ESPHome, HomeAssistant, Arduino IDE</li>
+    <li><strong>Game Development:</strong> Minecraft Forge & Fabric MDK, OpenGL, LWJGL, Ebitengine</li>
+    <li><strong>Monitoring:</strong> Sentry, Datadog, Grafana</li>
+    <li><strong>Operating Systems:</strong> MacOS, Ubuntu, Kali Linux</li>
   </ul>
-  {{< /timelineItem >}}
+{{< /timelineItem >}}
 
-  {{< timelineItem header="Databases & Storage" icon="database" >}}
+{{< timelineItem header="Other Skills & Interests" icon="invention" >}}
+While not directly related to my work as a developer, these skills and interests round out my technical profile and often come in handy.
   <ul>
-    <li>PostgreSQL</li>
-    <li>MongoDB</li>
-    <li>Amazon S3</li>
-    <li>Minio</li>
-    <li>IBM Db2</li>
-    <li>Firebase Realtime Database</li>
+    <li><strong>Light Technician Experience:</strong> Proficient with Roadhog 4</li>
+    <li><strong>Electronics & Circuitry:</strong> Biomedical Engineering, Circuit Design, ESPs, Arduinos</li>
+    <li><strong>Radio Communication:</strong> Certified Radio Amateur</li>
+    <li><strong>Graphic Design & Editing:</strong> Adobe Suite (Photoshop, Illustrator, InDesign)</li>
+    <li><strong>Intellectual Society:</strong> Active member of Mensa Austria</li>
+    <li><strong>Hobbies:</strong> Cycling, Chess, spending time with family and friends</li>
   </ul>
-  {{< /timelineItem >}}
-
-  {{< timelineItem header="Containerization & Orchestration" icon="docker" >}}
+And most importantly (for safety, praise our AI Overlords!):
   <ul>
-    <li>Docker</li>
-    <li>Kubernetes</li>
-    <li>Talos</li>
-    <li>Traefik</li>
+    <li><strong>Favourite Tool:</strong> ChatGPT 4 ❤️</li>
   </ul>
-  {{< /timelineItem >}}
+{{< /timelineItem >}}
 
-  {{< timelineItem header="Cloud & (Self-)Hosting" icon="vmware" >}}
-  <ul>
-    <li>Proxmox</li>
-    <li>vSphere</li>
-    <li>Amazon EC2</li>
-    <li>Firebase Cloud Functions</li>
-    <li>Heroku</li>
-  </ul>
-
-  {{< /timelineItem >}}
-
-  {{< timelineItem header="Continuous Integration & Deployment" icon="git" >}}
-  <ul>
-    <li>Git</li>
-    <li>GitHub Actions</li>
-    <li>GitLab CI/CD</li>
-    <li>Earthly</li>
-    <li>Jenkins</li>
-    <li>Sentry</li>
-    <li>Datadog</li>
-  </ul>
-  {{< /timelineItem >}}
-
-  {{< timelineItem header="Networking & Security" icon="world" >}}
-  <ul>
-    <li>nmap</li>
-    <li>Burp Suite</li>
-    <li>John the Ripper</li>
-    <li>Metasploit</li>
-    <li>gobuster</li>
-    <li>linPEAS</li>
-  </ul>
-  {{< /timelineItem >}}
-
-  {{< timelineItem header="Assembly & Reverse Engineering" icon="bug" >}}
-  <ul>
-    <li>Hopper Disassembler</li>
-    <li>Ghidra</li>
-    <li>x86 Assembly</li>
-    <li>ARM Assembly</li>
-  </ul>
-  {{< /timelineItem >}}
-
-  {{< timelineItem header="IoT & Home Automation" icon="invention" >}}
-  <ul>
-    <li>ESPHome</li>
-    <li>HomeAssistant</li>
-    <li>Arduino IDE</li>
-  </ul>
-  {{< /timelineItem >}}
-
-  {{< timelineItem header="Game Development" icon="game" >}}
-  <ul>
-    <li>Minecraft MCP</li>
-    <li>Forge MDK</li>
-    <li>Fabric MDK</li>
-    <li>OpenGL</li>
-    <li>LWJGL</li>
-    <li>Ebitengine</li>
-  </ul>
-  {{< /timelineItem >}}
-
-  {{< timelineItem header="Operating Systems" icon="ubuntu" >}}
-  <ul>
-    <li>MacOS</li>
-    <li>Ubuntu</li>
-    <li>Kali Linux</li>
-  </ul>
-  {{< /timelineItem >}}
-
-  {{< timelineItem header="Graphic Design & Editing" icon="adobe" >}}
-  <ul>
-    <li>Adobe Photoshop</li>
-    <li>Adobe Illustrator</li>
-    <li>Adobe InDesign</li>
-  </ul>
-  {{< /timelineItem >}}
-
-  {{< timelineItem header="And most importantly" icon="cloud-network" >}}
-  <ul>
-    <li>ChatGPT 4 ❤️</li>
-  </ul>
-  {{< /timelineItem >}}
 {{< /timeline >}}
