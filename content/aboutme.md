@@ -12,7 +12,7 @@ showPagination = false
 
 Technology, in every way, shape and form, has always been my passion. Imagine me at seven years old, tinkering around with cables, batteries, light bulbs and speakers, building primitive "alarm systems" onto doors, triggering when somebody would open them.. well to the annoyance of my parents. :D
 
-I soon moved into computers, realizing that this omnious thing called "Internet" could answer me everything that I wanted to know. Often I spent hours into the night (which back then meant nine o'clock of course) sitting in front of the screen, digging into everything that interested me.
+I soon moved into computers, realizing that this strange thing called "Internet" could answer me everything that I wanted to know. Often I spent hours into the night (which back then meant nine o'clock of course) sitting in front of the screen, digging into everything that interested me.
 
 When I received my first iPod at the age of twelve, I soon (well, besides listening to far to much music) jumped into taking apart mobile games, looking into how they store powerups, unlocks, high scores, etc. Luckily for me, most of the time it was just an unencrypted .plist or .txt file, making it very easy to tweak the numbers up a little. I mean, when Flappy Bird was a thing, it was pretty cool to show off my high score of 1000 or so. ;)
 

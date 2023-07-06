@@ -70,11 +70,12 @@ This comprehensive (and still incomplete) list represents a wide range of techno
   {{< timelineItem header="Cloud & (Self-)Hosting" icon="vmware" >}}
   <ul>
     <li>Proxmox</li>
-    <li>VSphere</li>
+    <li>vSphere</li>
     <li>Amazon EC2</li>
     <li>Firebase Cloud Functions</li>
     <li>Heroku</li>
   </ul>
+
   {{< /timelineItem >}}
 
   {{< timelineItem header="Continuous Integration & Deployment" icon="git" >}}

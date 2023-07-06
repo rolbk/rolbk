@@ -31,8 +31,8 @@ showPagination = false
 
 | Time Period          | Details                                           |
 |----------------------|---------------------------------------------------|
-| 07/2019 - 06/2020    | **Civil Service (regular and extraordinary)** |
 | 06/2018 - 03/2020    | **Lighting technician - Johnnys Disco nightclub**     |
+| 07/2019 - 07/2020    | **Civil Service (regular and extraordinary)** |
 | 09/2020 - 12/2020    | **Raiffeisen - ORG/IT Software development**          |
 | 01/2021 - present   | **Authentic Vision - Engineering**                    |
 ## Projects
