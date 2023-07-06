@@ -41,8 +41,8 @@ These skills complement my primary skill set and have been used in various proje
 {{< timelineItem header="Other Skills & Interests" icon="invention" >}}
 While not directly related to my work as a developer, these skills and interests round out my technical profile and often come in handy.
   <ul>
-    <li><strong>Light Technician Experience:</strong> Proficient with Roadhog 4</li>
     <li><strong>Electronics & Circuitry:</strong> Biomedical Engineering, Circuit Design, ESPs, Arduinos</li>
+    <li><strong>Light Technician Experience:</strong> Road Hog, GrandVJ, Pionieer DJ, DMX, MIDI</li>
     <li><strong>Radio Communication:</strong> Certified Radio Amateur</li>
     <li><strong>Graphic Design & Editing:</strong> Adobe Suite (Photoshop, Illustrator, InDesign)</li>
     <li><strong>Intellectual Society:</strong> Active member of Mensa Austria</li>
