@@ -13,28 +13,29 @@ showPagination = false
 
 | Time Period          | Institution                                       |
 |----------------------|---------------------------------------------------|
-| 09/2006 - 07/2008    | **Volksschule Ostermiething**                     |
-| 09/2008 - 07/2010    | **Volksschule Oberndorf**                         |
-| 09/2010 - 07/2014    | **SHS Oberndorf**                                 |
-| 09/2014 - 06/2019    | **HTBLuVA Salzburg - Biomedical Engineering**     |
 | 10/2021 - present    | **Paris Lodron University Salzburg - Computer Science**     |
-
-## Internships
-
-| Time Period          | Institution                                       |
-|----------------------|---------------------------------------------------|
-| 07/2016 - 08/2016    | **Raiffeisen Technik-Zentrum**                    |
-| 08/2017 - 09/2017    | **B&R Industrial Automation**                     |
-| 08/2018 - 09/2018    | **Paris Lodron University Salzburg - WaveLab**    |
+| 09/2014 - 06/2019    | **HTBLuVA Salzburg - Biomedical Engineering**     |
+| 09/2010 - 07/2014    | **SHS Oberndorf**                             |
+| 09/2008 - 07/2010    | **Volksschule Oberndorf**                         |
+| 09/2006 - 07/2008    | **Volksschule Ostermiething**                     |
 
 ## Work Experience
 
 | Time Period          | Details                                           |
 |----------------------|---------------------------------------------------|
-| 06/2018 - 03/2020    | **Lighting technician - Johnnys Disco nightclub**     |
-| 07/2019 - 07/2020    | **Civil Service (regular and extraordinary)** |
-| 09/2020 - 12/2020    | **Raiffeisen - ORG/IT Software Development**         |
 | 01/2021 - present   | **Authentic Vision GmbH - Engineering**                    |
+| 09/2020 - 12/2020    | **Raiffeisen - ORG/IT Software Development**         |
+| 07/2019 - 07/2020    | **Civil Service (regular and extraordinary)** |
+| 06/2018 - 03/2020    | **Lighting technician - Johnnys Disco nightclub**     |
+
+## Internships
+
+| Time Period          | Institution                                       |
+|----------------------|---------------------------------------------------|
+| 08/2018 - 09/2018    | **Paris Lodron University Salzburg - WaveLab**    |
+| 08/2017 - 09/2017    | **B&R Industrial Automation**                     |
+| 07/2016 - 08/2016    | **Raiffeisen Technik-Zentrum**                    |
+
 ## Career
 
 ### Authentic Vision
