@@ -7,7 +7,7 @@ showDateUpdated : false
 showHeadingAnchors : false
 showPagination : false
 showReadingTime : false
-showTableOfContents : false
+showTableOfContents : true
 showTaxonomies : false 
 showWordCount : false
 showSummary : false

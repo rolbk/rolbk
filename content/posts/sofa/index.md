@@ -4,9 +4,8 @@ summary = "How I reverse-engineered my electric sofa to work with Home Assistant
 author = "Emanuel Mairoll"
 date= "2022-05-22"
 tags = ['IoT', 'Home Assistant', 'ESPHome', 'Electronics']
-
+showTableOfContents = true
 +++
-
 
 
 {{< lead >}}
@@ -27,11 +26,11 @@ No. I fell in love because it had two buttons that electrically extended the sli
 
 My first thought was 
 
-> "Oh, how convenient for hosting guests." 
+> Oh, how convenient for hosting guests.
 
 My second one was 
 
-> "I need to IoT-ify this bad boy." 
+> I need to IoT-ify this bad boy.
 
 Because apparently, I'm the kind of person who looks at perfectly functional furniture and thinks, "You know what this needs? An IP address."
 
@@ -81,6 +80,7 @@ After my last IoT adventure, I opted for an OLIMEX ESP32-POE again, as I was ver
 
 The only feature I wished the ESP32-POE had was built-in circuitry for handling higher voltages. Since the board lacks onboard relays or optocouplers, I decided to interface directly with the sofa's control circuits.
 For the output signals, I initially tried connecting the ESP's 3.3V GPIO pins directly to the transistor bases, but the existing 10kΩ inline resistors dropped too much voltage. One quick soldering job later, I had bridged those resistors and added 820Ω resistors on the breadboard instead to properly scale the voltage. This gave the transistors exactly what they needed to switch reliably.
+
 For the input signals, the sofa's buttons supply 32V - definitely not ESP-friendly territory. A simple voltage divider using 10kΩ and 1kΩ resistors brought those signals down to a safe 3V range that the ESP could read without releasing its magic smoke.
 
 For power supply, I simply opted for USB because I didn't know if the piston would create ripples on the power supply that could throw the ESP off, and it was easier than messing with the sofa supply voltage or ensuring galvanic isolation for PoE.

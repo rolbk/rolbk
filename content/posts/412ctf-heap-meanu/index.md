@@ -4,6 +4,7 @@ summary = "A writeup for EPFL CS412's HEAP-MEANU challenge involving heap exploi
 author = "Emanuel Mairoll"
 date= "2025-04-02"
 tags = ['CTF', 'EPFL CS412', 'Writeup', 'PWN', 'Heap', 'House of Spirits']
+showTableOfContents = true
 +++
 
 

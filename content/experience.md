@@ -5,7 +5,6 @@ draft = true
 enableComments = false
 showAuthor = false
 showPagination = false
-showTableOfContents = false
 
 +++
 

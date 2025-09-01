@@ -4,6 +4,7 @@ summary = "A writeup about exploiting an image converter service through path tr
 author = "Emanuel Mairoll"
 date= "2025-08-29"
 tags = ['Writeup', 'CTF', 'HITCON 2025', 'Web Security', 'Python', 'Pickle', 'Polyglot']
+showTableOfContents = true
 +++
 
 Last weekend I competed in HITCON CTF 2025 together with the 0rganizers. I spent most of my time on the IMGC0NV web challenge, which looked deceptively simple at first - just abusing a trivial path traversal - but it unfolded into a cursed polyglot trick to land remote code execution through OS pipes. 
