@@ -2,11 +2,11 @@
 title = "About Me"
 description = "Well, thats my story"
 date = "2023-03-12"
-aliases = ["about-me"]
 author = "Emanuel Mairoll"
 enableComments = false
-showAuthor = true
+showAuthor = false
 showPagination = false
+showTableOfContents = false
 
 +++
 
@@ -22,7 +22,7 @@ This was also the time when I had to decide which high school I would attend. I 
 
 During my high school years, I also found an amazing part-time gig at my family's Discotheque, where I worked as a "Light Jockey." This unique experience taught me a lot about visual effects and coordination, while also humbling me as I realized the importance of teamwork and the equality of every person involved in creating a mesmerizing experience for our guests.
 
-As I continued to explore, I found my way back to modding Minecraft. This time, I dived deeper into creating PvP hacks like tracers and ESP, battling with OpenGL and wishing I had more knowledge in Linear Algebra back then. ¯\\\_(ツ)_/¯  I shared these mods with my friends, and together we enjoyed pushing the limits of the game.
+As I continued to explore, I found my way back to modding Minecraft. This time, I dived deeper into creating PvP hacks like tracers and ESP, battling with OpenGL and wishing I had more knowledge in Linear Algebra back then. ¯\\\_(ツ)\_/¯  I shared these mods with my friends, and together we enjoyed pushing the limits of the game.
 
 After graduating from HTL, I spent a year (July 2019 to June 2020) completing my civil service, which was extended to 12 months due to the corona pandemic. To be honest, I didn't enjoy that time, as it made me feel like my skills were pretty underutilized and my contributions undervalued.
 

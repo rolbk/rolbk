@@ -5,16 +5,5 @@ displayName: EN
 
 title: '[root&#64;emanuelmairoll.at]#'
 description: A personal blog featuring articles on various topics including technology, programming, and personal experiences.
-copyright: © 2023 Emanuel J. Mairoll
+copyright: © 2025 Emanuel J. Mairoll
 
-
-author:
-  name: Emanuel Mairoll
-  image: le_me.jpg
-  headline: Software Dev // Tech Tinkerer // Circuit Wizard
-  bio: Software Developer
-  links:
-    - github: 'https://github.com/EmanuelMairoll'
-    - stack-overflow: 'https://stackoverflow.com/users/18277713/emanuelm'
-    - linkedin: 'https://www.linkedin.com/in/emanuel-mairoll-512458164/'
-    - envelope: 'mailto:sigmoid_flavors_0u@icloud.com'

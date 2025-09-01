@@ -1,11 +1,11 @@
 +++
 title = "Experience"
 date = "2023-04-24"
-aliases = ["technologies", "tech-stack"]
-draft = false
+draft = true
 enableComments = false
 showAuthor = false
 showPagination = false
+showTableOfContents = false
 
 +++
 

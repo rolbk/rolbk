@@ -5,6 +5,7 @@ author = "Emanuel Mairoll"
 enableComments = false
 showAuthor = false
 showPagination = false
+showTableOfContents = false
 
 +++
 
