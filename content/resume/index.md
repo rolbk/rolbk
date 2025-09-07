@@ -33,17 +33,10 @@ layoutBackgroundHeaderSpace: false
     </thead>
     <tbody>
         <tr>
-            <td rowspan=3><img class="customEntitityLogo" src="eth.svg"/></td>
-            <td rowspan=3><a href="https://ethz.ch/" target="_blank">ETH Zürich</a></td>
-        </tr>
-        <tr>
+            <td><img class="customEntitityLogo" src="eth.svg"/></td>
+            <td><a href="https://epfl.ch/" target="_blank">EPFL</a></td>
             <td>MSc. Cyber Security</td>
             <td>2024 - Present</td>
-            <td>Zürich, CH</td>
-        </tr>
-        <tr>
-            <td>BSc. Computer Science (exchange)</td>
-            <td>2024 <br/> (Apr - May)</td>
             <td>Zürich, CH</td>
         </tr>
         <tr>
@@ -53,6 +46,13 @@ layoutBackgroundHeaderSpace: false
             <td>2025 <br/> (Feb - Jul)</td>
             <td>Lausanne, CH</td>
         </tr>
+        <tr>
+            <td><img class="customEntitityLogo" src="eth.svg"/></td>
+            <td><a href="https://epfl.ch/" target="_blank">EPFL</a></td>
+            <td>BSc. Computer Science (exchange)</td>
+            <td>2024 <br/> (Apr - May)</td>
+            <td>Zürich, CH</td>
+        </tr>        
         <tr>
             <td><img class="customEntitityLogo" src="plus.png"/></td>
             <td><a href="https://www.plus.ac.at/" target="_blank">University Salzburg</a></td>
@@ -91,6 +91,13 @@ layoutBackgroundHeaderSpace: false
             <td>Research</td>
             <td>2024 - Present</td>
             <td>Zürich, CH</td>
+        </tr>
+        <tr>
+            <td><img class="customEntitityLogo" src="plus.png"/></td>
+            <td><a href="https://www.plus.ac.at/" target="_blank">University Salzburg</a></td>
+            <td>Teaching Assistant</td>
+            <td>2023 <br/> (Sep - Dec)</td>
+            <td>Salzburg, AT</td>
         </tr>
         <tr>
             <td><img class="customEntitityLogo" src="av.webp"/></td>

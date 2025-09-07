@@ -219,8 +219,6 @@ But in any case, I then rebuilt everything properly on a smaller, fitting breadb
 
 It worked like a charm.
 
-[Here you will find a video of it in the future]
-
 {{< youtubeLite id="kuYzAW1qodk" label="The Internet of Furniture" >}}
 
 ## The Aftermath: Living in the Future
