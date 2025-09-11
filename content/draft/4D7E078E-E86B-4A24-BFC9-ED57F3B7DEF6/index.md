@@ -151,7 +151,7 @@ It needed a name.
 
 If you were wondering about the posts title...
 
-Werner Heisenberg was a german physicist. That means, he definitely had *something* to do with magnets. Probably. 
+Werner Heisenberg was a German physicist. That means, he definitely had *something* to do with magnets. Probably. 
 
 I mean, he defenitely did something with uncertanty (of toilet occupancy I guess). 
 
