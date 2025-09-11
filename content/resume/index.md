@@ -178,6 +178,13 @@ layoutBackgroundHeaderSpace: false
             <td>Member</td>
             <td>International</td>
         </tr>
+        <tr>
+            <td><img class="customEntitityLogo" src="defcon.png"/></td>
+            <td><a href="https://org.anize.rs/" target="_blank">DEFCON Switzerland</a></td>
+            <td>Local Hacker Group</td>
+            <td>Member</td>
+            <td>CH</td>
+        </tr>
     </tbody>
 </table>
 
