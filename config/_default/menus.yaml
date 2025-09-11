@@ -9,7 +9,7 @@ main:
     pageRef: resume
     weight: 30
   - pre: github
-    url: 'https://github.com/EmanuelMairoll'
+    url: 'https://github.com/rolbk'
     weight: 40
 footer:
   - name: Acknowledgements
