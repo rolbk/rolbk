@@ -20,7 +20,7 @@ div > nav > a.font-medium::after {
   background: rgba(var(--color-primary-800));
   display: inline-block;
 
-  animation: cursor-blink 1.5s steps(20) infinite;
+  animation: cursor-blink 1.5s steps(20) 10;
 }
 
 html.dark div > nav > a.font-medium::after {
