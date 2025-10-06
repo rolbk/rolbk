@@ -360,7 +360,7 @@ Three months of work, and it just... worked. First try. No debugging. No trouble
 
 The final touch was making it look professional. The Shelly *almost* fit into the remaining empty space in the control box. After removing the box's sliding cover, the Shelly nestled perfectly into the available space. A bit of Gaffer Tape to act as new cover, and it almost looked like it belonged there. 
 
-![final installation](featured.webp)
+![final installation](featured.jpg)
 
 ## The Configuration
 
