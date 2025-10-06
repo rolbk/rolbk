@@ -5,6 +5,8 @@ author = "Emanuel Mairoll"
 date= "2023-01-07"
 tags = ['IoT', 'ESPHome', 'Shelly Uni', 'Electronics', 'UART Abuse', 'Roof Windows', 'VELUX']
 showTableOfContents = true
+series = ["The Open Source Smart Home"]
+series_order = 2
 +++
 
 __*Stories from the Open Source Smart Home - Part 2*__

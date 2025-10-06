@@ -5,6 +5,8 @@ author = "Emanuel Mairoll"
 date = "2024-11-15"
 tags = ['IoT', 'ESPHome', 'MQTT', 'Office Automation', 'Toilets', 'Questionable Life Choices']
 showTableOfContents = true
+series = ["The Open Source Smart Home"]
+series_order = 4
 +++
 
 Oh boy, do I love stupid projects. And oh boy, do I love IoT. But most of all, I love solving minuscule problems in absolutely ridiculous ways. 

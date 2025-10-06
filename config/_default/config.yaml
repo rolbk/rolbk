@@ -1,4 +1,8 @@
 theme: blowfish
 languageCode: en
 defaultContentLanguage: en
-
+taxonomies:
+  tag: "tags"
+  category: "categories"
+  author: "authors"
+  series: "series"

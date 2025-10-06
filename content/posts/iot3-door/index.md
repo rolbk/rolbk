@@ -5,6 +5,8 @@ author = "Emanuel Mairoll"
 date = "2023-08-12"
 tags = ['IoT', 'Home Assistant', 'ESPHome', 'BLE', 'iOS Shortcuts', 'Door Automation']
 showTableOfContents = true
+series = ["The Open Source Smart Home"]
+series_order = 3
 +++
 
 {{< lead >}}

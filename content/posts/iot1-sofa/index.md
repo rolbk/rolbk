@@ -5,6 +5,8 @@ author = "Emanuel Mairoll"
 date= "2022-05-22"
 tags = ['IoT', 'Home Assistant', 'ESPHome', 'Electronics']
 showTableOfContents = true
+series = ["The Open Source Smart Home"]
+series_order = 1
 +++
 
 
