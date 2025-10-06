@@ -34,7 +34,7 @@ layoutBackgroundHeaderSpace: false
     <tbody>
         <tr>
             <td><img class="customEntitityLogo" src="eth.svg"/></td>
-            <td><a href="https://epfl.ch/" target="_blank">EPFL</a></td>
+            <td><a href="https://ethz.ch/" target="_blank">ETH Zürich</a></td>
             <td>MSc. Cyber Security</td>
             <td>2024 - Present</td>
             <td>Zürich, CH</td>
@@ -48,7 +48,7 @@ layoutBackgroundHeaderSpace: false
         </tr>
         <tr>
             <td><img class="customEntitityLogo" src="eth.svg"/></td>
-            <td><a href="https://epfl.ch/" target="_blank">EPFL</a></td>
+            <td><a href="https://ethz.ch/" target="_blank">ETH Zürich</a></td>
             <td>BSc. Computer Science (exchange)</td>
             <td>2024 <br/> (Apr - May)</td>
             <td>Zürich, CH</td>
@@ -168,7 +168,7 @@ layoutBackgroundHeaderSpace: false
             <td><img class="customEntitityLogo" src="koes.svg"/></td>
             <td><a href="https://www.koes.ch/" target="_blank">KÖS - Klub der Österreichischen Studierenden</a></td>
             <td>Club of Austrian Students in Zurich</td>
-            <td>Board Member</td>
+            <td>President</td>
             <td>Zürich, CH</td>
         </tr>
         <tr>
@@ -180,7 +180,7 @@ layoutBackgroundHeaderSpace: false
         </tr>
         <tr>
             <td><img class="customEntitityLogo" src="defcon.png"/></td>
-            <td><a href="https://org.anize.rs/" target="_blank">DEFCON Switzerland</a></td>
+            <td><a href="https://www.defcon-switzerland.org/" target="_blank">DEFCON Switzerland</a></td>
             <td>Local Hacker Group</td>
             <td>Member</td>
             <td>CH</td>
