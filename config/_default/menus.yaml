@@ -9,7 +9,7 @@ main:
     pageRef: resume
     weight: 30
   - pre: rss
-    url: 'posts/index.xml'
+    url: '/posts/index.xml'
     weight: 40
 footer:
   - name: Acknowledgements
