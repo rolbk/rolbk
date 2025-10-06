@@ -169,7 +169,7 @@ Around this time, my colleague was building his house and kept talking about his
 
 I was intrigued and asked if he could bring me a spare to try out. He did, I plugged it in, and immediately fell in love. The ESP ecosystem has amazing software support in general, the "32" in it meant enough processing power for anything I could throw at it, and Power over Ethernet meant no suspicious power cables running through the wall.
 
-Basically: Perfect for toilet monitoring. (Also perfect for my sofa project, but that's yet [another story](/posts/sofa).)
+Basically: Perfect for toilet monitoring. (Also perfect for my sofa project, but that's yet [another story](/posts/iot1-sofa).)
 
 For the Hall sensor, I went with the GY-271 HMC5883L - a 3D magnetometer breakout board that was easy to source and had good ESP library support. The only thing to watch out for was I2C's cable length - anything over 1-2 meters and the signal starts getting flaky.
 
