@@ -408,7 +408,7 @@ Sadly, I left the company before installation day arrived. But, somewhere in my 
 
 ## The Legacy
 
-Before I left, the system had been running flawlessly for months. It processed over 50,000 "transactions." The average occupancy was 6.3 minutes. Peak usage was Thursday at 10:30 AM (after the all-hands meeting with free coffee).
+Before I left, the system had been running flawlessly for months. It processed over 15,000 "transactions." The average occupancy was 6.3 minutes. Peak usage was Wednesday at 03:30 PM (after the all-hands meeting with a lot of coffee).
 
 
 The beautiful thing is that the system might still be running. Hidden in the walls, an ESP32 silently monitoring magnetic fields, broadcasting to an MQTT topic that maybe nobody subscribes to anymore. A digital ghost of over-engineering past.
