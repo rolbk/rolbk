@@ -1,5 +1,6 @@
 theme: blowfish
 languageCode: en
+baseURL: "https://rolbk.com/"
 defaultContentLanguage: en
 taxonomies:
   tag: "tags"
