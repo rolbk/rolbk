@@ -8,8 +8,8 @@ main:
   - name: Resume
     pageRef: resume
     weight: 30
-  - pre: github
-    url: 'https://github.com/rolbk'
+  - pre: rss
+    url: 'posts/index.xml'
     weight: 40
 footer:
   - name: Acknowledgements
