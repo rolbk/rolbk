@@ -383,7 +383,7 @@ We added the toilet metrics to our main Datadog dashboard, right between API res
 
 I also wrote a small Swift app for macOS that lived in the menu bar. A tiny toilet icon with either a red or green dot. It could even send notifications when the toilet became free!
 
-![menuqttool](menuqttool.webp)
+![menuqttool](menuqttool.png)
 
 The app used CocoaMQTT to subscribe to the `heislberg/door_state` topic and mapped each state to an emoji. The fun part: You could configure it to run shell commands on state changes, so you could theoretically hook it up to anything - notifications, scripts, whatever automation your heart desired.
 
