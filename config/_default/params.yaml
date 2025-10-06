@@ -27,8 +27,8 @@ homepage:
   layout: background
   homepageImage: img/background.webp
   showRecent: true
-  showRecentItems: 3
-  # cardView: true
+  showRecentItems: 6
+  cardView: true
   showMoreLink: true
 
 list:
