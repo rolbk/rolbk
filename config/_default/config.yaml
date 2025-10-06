@@ -7,3 +7,13 @@ taxonomies:
   category: "categories"
   author: "authors"
   series: "series"
+outputs:
+  home:
+  - html
+  section:
+  - html
+  - rss
+  taxonomy:
+  - html
+  term:
+  - html
