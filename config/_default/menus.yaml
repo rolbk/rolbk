@@ -18,3 +18,6 @@ footer:
   - name: Privacy
     pageRef: privacy
     weight: 20
+  - name: Polyring
+    pageRef: polyring
+    weight: 30
