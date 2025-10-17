@@ -158,20 +158,6 @@ layoutBackgroundHeaderSpace: false
     </thead>
     <tbody>
         <tr>
-            <td><img class="customEntitityLogo" src="mensa.svg"/></td>
-            <td><a href="https://www.mensa.at/" target="_blank">Mensa</a></td>
-            <td>High IQ Society</td>
-            <td>Member</td>
-            <td>AT + CH</td>
-        </tr>
-        <tr>
-            <td><img class="customEntitityLogo" src="koes.svg"/></td>
-            <td><a href="https://www.koes.ch/" target="_blank">KÖS - Klub der Österreichischen Studierenden</a></td>
-            <td>Club of Austrian Students in Zurich</td>
-            <td>President</td>
-            <td>Zürich, CH</td>
-        </tr>
-        <tr>
             <td><img class="customEntitityLogo" src="organizers.webp"/></td>
             <td><a href="https://org.anize.rs/" target="_blank">0rganisers</a></td>
             <td>CTF Team</td>
@@ -185,6 +171,20 @@ layoutBackgroundHeaderSpace: false
             <td>Member</td>
             <td>CH</td>
         </tr>
+        <tr>
+            <td><img class="customEntitityLogo" src="koes.svg"/></td>
+            <td><a href="https://www.koes.ch/" target="_blank">KÖS - Klub der Österreichischen Studierenden</a></td>
+            <td>Club of Austrian Students in Zurich</td>
+            <td>President</td>
+            <td>Zürich, CH</td>
+        </tr>
+        <tr>
+            <td><img class="customEntitityLogo" src="mensa.svg"/></td>
+            <td>Mensa</td>
+            <td>Interest Society</td> <!-- Why are people so stigmatizing?? -->
+            <td>Member</td>
+            <td>AT + CH</td>
+        </tr>        
     </tbody>
 </table>
 
