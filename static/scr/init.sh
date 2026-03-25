@@ -21,8 +21,7 @@ sudo apt install -y \
 # ── Set zsh as default shell ───────────────────────────────────────────────
 step "Setting zsh as default shell"
 if [ "$SHELL" != "$(which zsh)" ]; then
-  sudo chsh -s "$(which zsh)" $USER
-  warn "Shell changed to zsh - will take effect on next login"
+  sudo chsh -s "$(which zsh)" $USER && warn "Shell changed to zsh - will take effect on next login" || warn "Could not change shell to zsh"
 fi
 
 # ── Write .zshrc (before Atuin install so the installer doesn't duplicate) ─
