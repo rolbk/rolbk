@@ -14,7 +14,7 @@ step "Installing apt packages"
 sudo apt update
 sudo apt install -y \
   build-essential git curl wget unzip file tree htop jq \
-  zsh zsh-syntax-highlighting eza ripgrep \
+  zsh zsh-syntax-highlighting exa ripgrep \
   python3 python3-venv python3-pip \
   autojump thefuck
 
@@ -40,7 +40,7 @@ export PATH="$HOME/.atuin/bin:$HOME/.local/bin:$PATH"
 source ~/.local/share/powerlevel10k/powerlevel10k.zsh-theme
 
 # ── Aliases ────────────────────────────────────────────────────────────────
-alias ls='eza'
+alias ls='exa'
 alias l='ls -lah'
 alias please='sudo'
 alias gs='git status'
