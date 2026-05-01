@@ -16,7 +16,7 @@ sudo apt install -y \
   build-essential git curl wget unzip file tree htop jq \
   zsh zsh-syntax-highlighting ripgrep \
   python3 python3-venv python3-pip \
-  autojump thefuck
+  autojump
 
 # ── Set zsh as default shell ───────────────────────────────────────────────
 step "Setting zsh as default shell"
@@ -45,7 +45,6 @@ alias gs='git status'
 alias gc='git commit'
 alias gp='git push'
 alias es='exec $SHELL'
-alias f='fuck'
 alias py='python'
 alias pip='UV_PYTHON=~/.local/share/uv/global/bin/python uv pip'
 alias venvc='python3 -m venv .venv; source .venv/bin/activate'
@@ -56,7 +55,6 @@ alias serve='python3 -m http.server 80'
 eval "$(atuin init zsh)"
 [ -f /usr/share/autojump/autojump.sh ] && . /usr/share/autojump/autojump.sh
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-eval $(thefuck --alias)
 
 # ── p10k: lean base + overrides ───────────────────────────────────────────
 source ~/.local/share/powerlevel10k/config/p10k-lean.zsh
