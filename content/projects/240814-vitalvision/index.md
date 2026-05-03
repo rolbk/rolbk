@@ -13,6 +13,8 @@ In long-term wearable studies (24-36 h continuous ECG/PPG), data quality silentl
 
 I had a lot of freedom on the build - the lab brought me in for the software side specifically because mobile wasn't their home turf, and I had been doing mobile dev for years at that point. Beyond the thesis itself, the BSc exchange at ETH was a great way to collect a few experiences there before going all-in for my Master's the following autumn.
 
+I was really honored that the thesis went on to receive a [*teampool Auszeichnung für Abschlussarbeiten*](https://informatik.cs.plus.ac.at/de/post/teampool-awards/) from the Department of Computer Science at PLUS in October 2024 - one of three €1000 prizes given out per year for outstanding bachelor's and master's theses in computer science.
+
 {{< pdfcards >}}
 {{< pdfcard file="thesis.pdf" label="Thesis" >}}
 {{< pdfcard file="slides.pdf" label="Defense slides" >}}
