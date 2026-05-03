@@ -7,7 +7,7 @@ tags = ['CTF', 'Birthday', 'Hardware Security', 'ESP32', 'Rowhammer', 'Mate', 'F
 showTableOfContents = true
 +++
 
-After a semester that can only be described as "Hardware Security: A Trauma Simulator," I was very much looking forward to Christmas break. Professor Razavi had successfully brought me to my knees with side-channel attacks, speculative execution, and enough DRAM exploitation theory to give anyone nightmares about their DIMMs.
+After a semester that can only be described as "Hardware Security: A Trauma Simulator," I was very much looking forward to Christmas break. Hardware security has some of the coolest, often genuinely unfixable exploits out there - side-channel attacks, speculative execution, DRAM bit flipping - but damn are they painful to actually pull off in practice.
 
 But before Christmas comes my birthday - roughly a week before, in that sweet spot where everyone is already in party mode but not yet back home for the holidays. And this year, being the lucky resident of a spacious JUWO apartment, I decided to go big. Over twenty friends invited. Mate and mulled wine flowing freely. Mario Kart tournament running on the other end of the room. 
 
@@ -132,8 +132,6 @@ Network: CTF
 Password: rowhammer
 ```
 
-> *"Classic Kaveh: he literally made the WiFi password 'rowhammer' because he spent half a semester lecturing about DRAM bit flipping attacks."*
-
 ### The Challenge Interface
 
 Connecting to `192.168.4.1` revealed a beautifully crafted challenge page. The premise: a vulnerable memory region on the ESP32 (Xtensa LX6 architecture), and I needed to flip a single bit to bypass a security check.
@@ -181,7 +179,7 @@ Entering the final flag revealed the *actual* gift behind all this madness:
 
 **A coupon for a day at the Hürlimann Spa in Zürich.**
 
-After this semester of hardware security torture, my friends had created an elaborate multi-stage CTF culminating in... rest. Relaxation. Inner peace.
+After a semester this intense, my friends had created an elaborate multi-stage CTF culminating in... rest. Relaxation. Inner peace.
 
 I honestly couldn't have asked for a better (or more fitting) present.
 
@@ -193,13 +191,15 @@ I've solved a lot of CTFs. I've competed in major competitions. I've exploited r
 
 But this? This was different.
 
-My friends built something *just for me*. They incorporated inside jokes spanning years of friendship. They referenced my caffeine addiction, my *distinctive* hairstyle, and my trauma from a specific university course. They hid physical challenges across ETH and programmed an actual ESP32 to serve a hardware security puzzle.
+My friends built something *just for me*. They incorporated inside jokes spanning years of friendship. They referenced my caffeine addiction, my *distinctive* hairstyle, and the course I'd been buried in all semester. They hid physical challenges across ETH and programmed an actual ESP32 to serve a hardware security puzzle.
 
 Was the technical complexity insane? No - the Vigenère was easy, the bit-flip required some reverse engineering but nothing extreme, and the website was obviously vibecoded. But that wasn't the point.
 
 The point was that my friends know me. They know what makes me tick. And they channeled that into something creative, funny, and deeply personal.
 
 I'm lucky to have them.
+
+And on the off chance Prof. Razavi ever stumbles across this: all jokes and suffering aside, that was a crazy cool course. Thank you for that.
 
 ---
 
@@ -215,4 +215,4 @@ The mix of people never ceases to amaze me - Austrian troublemakers building bir
 
 *Thanks to the Austrian crew for the most creative present I've ever received. You know who you are. The mate's on me next time.*
 
-*And thanks to Professor Razavi for the trauma that made the final challenge hit so much harder. I think.*
+*And thanks to Professor Razavi for a semester challenging enough that the final challenge hit just right. I think.*
