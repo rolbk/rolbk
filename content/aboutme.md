@@ -1,7 +1,7 @@
 +++
 title = "About Me"
 description = "Well, thats my story"
-date = "2023-03-12"
+date = "2026-05-03"
 author = "Emanuel Mairoll"
 enableComments = false
 showAuthor = false
@@ -19,19 +19,31 @@ What actually got me into programming was once again a video game. On one of my 
 
 This was also the time when I had to decide which high school I would attend. I went with the HTL Salzburg, which was probably one of the best decisions of my life. Because, although it was a very challenging experience, I enjoyed every second of it: Being it the hard but sooo fascinating math, the (very long) days spent in nerdy laboratories, and all the amazing people I had the honour to meet there, students and teachers alike - many of them I am still friends with to this day.
 
-During my high school years, I also found an amazing part-time gig at my family's Discotheque, where I worked as a "Light Jockey." This unique experience taught me a lot about visual effects and coordination, while also humbling me as I realized the importance of teamwork and the equality of every person involved in creating a mesmerizing experience for our guests.
+During my high school years, I also picked up a weekend gig at my family's night club as a "Light Jockey," running a small flight-cockpit of hundreds of buttons (moving heads, lasers, strobes, CO2 jets, the LED wall) and improvising it all live next to the DJ. Over the years I got to work with a lot of really cool DJs, including some on the international circuit, and seeing the contrast between their on-stage personas and who they actually were off-stage was always a fun part of the job.
 
 As I continued to explore, I found my way back to modding Minecraft. This time, I dived deeper into creating PvP hacks like tracers and ESP, battling with OpenGL and wishing I had more knowledge in Linear Algebra back then. ¯\\\_(ツ)\_/¯  I shared these mods with my friends, and together we enjoyed pushing the limits of the game.
 
 After graduating from HTL, I spent a year (July 2019 to June 2020) completing my civil service, which was extended to 12 months due to the corona pandemic. To be honest, I didn't enjoy that time, as it made me feel like my skills were pretty underutilized and my contributions undervalued.
 
-In autumn 2020, I got the chance to work at Raiffeisenbank in their Raiffeisen Technik Zentrum. While I appreciated the opportunity, the bureaucratic environment and practices weren't quite my cup of tea. I was grateful for the experience, but I knew I wanted something that aligned more with my interests and goals.
+In autumn 2020, I got the chance to work at Raiffeisenbank in their Raiffeisen Technik Zentrum. While I appreciated the opportunity, working mostly on legacy software wasn't quite my cup of tea. I was grateful for the experience, but I knew I wanted something that aligned more with my interests and goals.
 
-Fortunately, I landed a job at Authentic Vision in January 2021, and it's been a fantastic experience ever since. The tech stack is a pleasure to work with, and the company culture emphasizes excellence and innovation. My colleagues are not only highly intelligent, but they also have a great sense of humor. It's just a fantastic atmosphere, and we're building something seriously cool together.
+Fortunately, an old colleague from back at the night club called me up about an opening at Authentic Vision around that time, and in January 2021 I joined them. It turned out to be a fantastic three-year run. The tech stack was a pleasure to work with, my colleagues were not only highly intelligent but also had a great sense of humor, and together we built some seriously cool stuff. A lot of them I'm still in touch with today. I only ended up leaving in summer 2024, when I moved to Switzerland for the MSc.
 
-In autumn 2021, when all the corona-dust somewhat started to settle down, I decided to hit the books again and started studying while cutting my weekly hours at Authentic Vision to 22. Mixing theory and practice has been incredibly rewarding, and I'm surrounded by a community of brilliant, motivated people. They keep me inspired and make this new chapter in my life a whole lot of fun.
+In autumn 2021, when all the corona-dust somewhat started to settle down, I decided to hit the books again and started a BSc in Computer Science at the University of Salzburg, cutting my weekly hours at Authentic Vision to 22 to make room for it. Salzburg was a good place to ease into university life and I made some great friends along the way.
 
-When I'm not busy with work or studying, I love to let loose and have some fun. Hitting the nightlife and grooving to techno music is always a blast, and I'm a big fan of inviting a bunch of friends over for gaming nights – whether it's board games or video games, it's all about the good times. I also really enjoy nature, taking a walk in the neighbouring woods to unwind. Food-wise, I love exploring new (vegetarian) dishes at restaurants and sharing my finds with family and friends. Speaking of family, I cherish the time spent with them, especially when it comes to enjoying my dad's mouthwatering main courses and my mum's heavenly desserts.
+Roughly halfway through the BSc I decided to take the biggest leap of my academic life so far and apply for the MSc Cyber Security at ETH Zürich. The application process was long and nerve-wracking - a 3-page CV, a 1000-word motivation letter, recommendation letters, language certificates, the whole pipeline - and I genuinely wasn't sure I'd make it through. When the acceptance eventually came in, it felt completely surreal, and looking back, it has genuinely changed the trajectory of my life.
+
+Before the MSc actually started, I got the chance to spend an exchange semester at ETH already during the BSc, in spring 2024, which gave me a great first taste of what was coming. I ended up writing my BSc thesis there at the *Sensing, Interaction & Perception Lab* on a project called *VitalVision* - a mobile platform for real-time signal-quality monitoring of wearable ECG/PPG data. (It later received an award from the PLUS Computer Science department, which I was very honored about.)
+
+The MSc itself started in autumn 2024 and has been everything I hoped for and then some. The courses are demanding in the best way, the professors and assistants are top of their field, and almost every week I get to dive into something I would not have been exposed to anywhere else. Beyond the academics, Zürich itself has turned out to be a fantastic place to live: the international student crowd, the lake within walking distance, the mountains a short train ride away, the steady rotation of cool talks and events to drop into. I've made friends from countries and backgrounds I'd never have crossed paths with otherwise, and the circle just keeps growing semester by semester. Hands down the best decision I've ever made.
+
+In spring 2025 I did another exchange semester, this time at EPFL in Lausanne. Different campus, French-speaking environment, a completely new crowd of people. I worked on my semester thesis with the *HexHive* security group (more on that under projects) and came back to Zürich knowing what feels like half the hackers in Switzerland.
+
+Alongside the MSc, I've also been working as a research assistant at the *Network Security Group* at ETH, where I get to design the graded course projects, help teach a course with 350+ students, and contribute to *SCION* - the new internet architecture being developed at the group.
+
+Outside of the strictly academic side, I've gotten quite deep into CTFs (mostly pwn) with the *0rganisers* team, am part of the local *DEFCON Switzerland* chapter, and currently serve as president of *KÖS*, the Klub der Österreichischen Studierenden in Zürich. I also really enjoy giving the occasional guest lecture - most recently one at FH Salzburg on mobile app reverse engineering.
+
+When I'm not busy with work or studying, I love to let loose and have some fun. Hitting the nightlife and grooving to techno music is always a blast, and I'm a big fan of inviting a bunch of friends over for board or video games. I also really enjoy nature, taking a walk in the neighbouring woods to unwind. Food-wise, I love exploring new (vegetarian) dishes at restaurants and sharing my finds with family and friends. Speaking of family, I cherish the time spent with them, especially when it comes to my dad's seriously good cooking and my mum's even better desserts. Growing up in a family of mostly chefs certainly spoils you a little.
 
 My passion for technology is always with me. I've dived into loads of hardware and software projects, turning every corner of my apartment into a smart space. One of my proudest (and, okay, maybe a bit silly) achievements is my electrically extendable sofa that I can control with my phone. These personal projects are a blast and super educational, helping me learn new skills and broaden my knowledge.
 
