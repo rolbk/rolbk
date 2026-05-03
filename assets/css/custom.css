@@ -90,3 +90,68 @@ html.dark div > nav > a.font-medium::after {
 td {
     vertical-align: middle !important;
 }
+
+.pdfcards {
+    --pdfcard-thumb-h: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.pdfcard {
+    display: flex !important;
+    flex-direction: column;
+    border: 1px solid rgba(var(--color-neutral-300), 1);
+    border-radius: 6px;
+    overflow: hidden;
+    text-decoration: none !important;
+    color: inherit !important;
+    background: rgba(var(--color-neutral-100), 1);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.pdfcard:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    text-decoration: none !important;
+}
+
+.pdfcard-thumb {
+    height: var(--pdfcard-thumb-h);
+    width: calc(var(--pdfcard-thumb-h) * var(--pdfcard-aspect, 0.75));
+    display: block;
+    object-fit: cover;
+    border-bottom: 1px solid rgba(var(--color-neutral-300), 1);
+    margin: 0 !important;
+}
+
+.pdfcard-meta {
+    padding: 0.5rem 0.75rem;
+}
+
+.pdfcard-label {
+    font-weight: 600;
+    font-size: 0.95rem;
+    line-height: 1.2;
+}
+
+.pdfcard-info {
+    font-size: 0.78rem;
+    color: rgba(var(--color-neutral-500), 1);
+    margin-top: 0.2rem;
+}
+
+html.dark .pdfcard {
+    background: rgba(var(--color-neutral-800), 1);
+    border-color: rgba(var(--color-neutral-700), 1);
+}
+
+html.dark .pdfcard-thumb {
+    border-color: rgba(var(--color-neutral-700), 1);
+}
+
+html.dark .pdfcard-info {
+    color: rgba(var(--color-neutral-400), 1);
+}

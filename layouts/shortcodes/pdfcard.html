@@ -1,0 +1,23 @@
+{{- $file := .Get "file" -}}
+{{- $label := .Get "label" -}}
+{{- $note := .Get "note" -}}
+{{- $thumbName := printf "%s-thumb.jpg" (strings.TrimSuffix ".pdf" $file) -}}
+{{- $pdf := .Page.Resources.GetMatch $file -}}
+{{- $thumb := .Page.Resources.GetMatch $thumbName -}}
+{{- $absPath := path.Join "content" .Page.File.Dir $file -}}
+{{- $info := os.Stat $absPath -}}
+{{- $sizeKB := div (float $info.Size) 1024.0 -}}
+{{- $sizeStr := "" -}}
+{{- if lt $sizeKB 1000.0 -}}
+{{- $sizeStr = printf "%.0f KB" $sizeKB -}}
+{{- else -}}
+{{- $sizeStr = printf "%.1f MB" (div $sizeKB 1024.0) -}}
+{{- end -}}
+{{- $aspect := div (float $thumb.Width) (float $thumb.Height) -}}
+<a href="{{ $pdf.RelPermalink }}" class="pdfcard" target="_blank" rel="noopener" style="--pdfcard-aspect: {{ printf "%.4f" $aspect }};">
+  <img src="{{ $thumb.RelPermalink }}" alt="{{ $label }} preview" class="pdfcard-thumb" loading="lazy">
+  <div class="pdfcard-meta">
+    <div class="pdfcard-label">{{ $label }}</div>
+    <div class="pdfcard-info">PDF · {{ $sizeStr }}{{ with $note }} · {{ . }}{{ end }}</div>
+  </div>
+</a>
