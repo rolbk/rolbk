@@ -11,7 +11,7 @@ My diploma thesis at the *Höhere Technische Bundeslehr- und Versuchsanstalt Sal
 
 Fingerprint sensors are great - until they aren't. A wet finger, a cold morning, or a bit of dirt is sometimes enough to lock you out of your own front door, and the rest of the popular biometric line-up (face, iris, voice) carries similar caveats. Hand vein scanners promise to do better by reading the unique vein patterns under the skin, but at the time there was almost no public reliability data on them (mostly because the few firms making them have no commercial interest in publishing it). So we ran our own clinical study to fill that gap, putting commercial scanners through controlled disturbance scenarios and writing up the results.
 
-By far the oldest thing on this site, and I'm well aware it doesn't quite hit the academic-paper bar - but looking back, I'm still somewhat proud of how it turned out, especially the clinical-study angle.
+By far the oldest thing on this site, and effectively my first step into the academic research world. Looking back, I'm still somewhat proud of how it turned out, especially the clinical-study angle.
 
 {{< pdfcards >}}
 {{< pdfcard file="thesis.pdf" label="Diplomarbeit" note="German" >}}

@@ -10,4 +10,4 @@ showTaxonomies = false
 showTableOfContents = false
 +++
 
-A selection of projects, presentations, and talks from the last few years. Both project work and presenting are things I really enjoy, and I always put serious effort into it. The page walks backwards: my current work and MSc at ETH, the EPFL exchange semester, my BSc at PLUS, all the way back to my HTL diploma thesis.
+A selection of projects, presentations, and talks from the last few years. Both project work and presenting are things I really enjoy, and I always put serious effort into it. The page walks backwards: my current work and MSc at ETH, the EPFL exchange semester, my BSc at the University of Salzburg, all the way back to my HTL (technical high school) diploma thesis.

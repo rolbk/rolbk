@@ -1,6 +1,7 @@
 colorScheme: ocean
 defaultAppearance: dark
 autoSwitchAppearance: false
+disableImageZoom: true
 
 author:
   name: Emanuel Mairoll
