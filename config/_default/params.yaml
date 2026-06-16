@@ -25,7 +25,7 @@ footer:
 
 homepage:
   layout: background
-  homepageImage: img/background.webp
+  homepageImage: img/background.svg
   showRecent: true
   showRecentItems: 6
   cardView: true
