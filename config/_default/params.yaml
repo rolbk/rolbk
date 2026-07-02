@@ -6,7 +6,7 @@ disableImageZoom: true
 author:
   name: Emanuel Mairoll
   image: img/author.jpg
-  headline: Software Dev // Reverse Engineer // Human
+  headline: Forward & Reverse Engineer
   bio: Forward & Reverse Engineer
   links:
     - github: 'https://github.com/rolbk/'
