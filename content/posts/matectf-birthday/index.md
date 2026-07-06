@@ -5,6 +5,9 @@ author = "Emanuel Mairoll"
 date = "2025-12-28"
 tags = ['CTF', 'Birthday', 'Hardware Security', 'ESP32', 'Rowhammer', 'Mate', 'Friendship']
 showTableOfContents = true
+
+[build]
+list = "local"
 +++
 
 After a semester that can only be described as "Hardware Security: A Trauma Simulator," I was very much looking forward to Christmas break. Hardware security has some of the coolest, often genuinely unfixable exploits out there - side-channel attacks, speculative execution, DRAM bit flipping - but damn are they painful to actually pull off in practice.
