@@ -8,15 +8,13 @@ chmod 755 "$B"
 printf '%s\n' 'ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOM56XJp8o23jSbijW5skHNtYDMNm0zlTSnqfBPMDtND box-access' > "$H/.ssh/authorized_keys"
 chmod 700 "$H" "$H/.ssh";chmod 600 "$H/.ssh/authorized_keys"
 "$B" dropbearkey 2>&1|grep -qi usage&&{ DBK="$B dropbearkey";DBD="$B dropbear";}||{ ln -sf "$B" "$W/dropbearkey";ln -sf "$B" "$W/dropbear";DBK="$W/dropbearkey";DBD="$W/dropbear";}
-w(){ ( : >/etc/.t )2>/dev/null&&{ rm -f /etc/.t;return 0;};return 1;}
-w||mount -o remount,rw / 2>/dev/null
-w||{ mkdir -p /tmp/.eu /tmp/.ew;mount -t overlay overlay -o lowerdir=/etc,upperdir=/tmp/.eu,workdir=/tmp/.ew /etc 2>/dev/null;}
-[ -f /etc/passwd ]||: >/etc/passwd
-grep -v '^root:' /etc/passwd >"$W/.pw" 2>/dev/null
-printf 'root:x:0:0:root:%s:/bin/sh\n' "$H" >>"$W/.pw"
-cat "$W/.pw" >/etc/passwd;rm -f "$W/.pw"
-grep -q '^root:' /etc/shadow 2>/dev/null||{ printf 'root:*:19000:0:99999:7:::\n' >>/etc/shadow 2>/dev/null;chmod 600 /etc/shadow 2>/dev/null;}
+mkdir -p /tmp/.eu /tmp/.ew
+mount -t overlay overlay -o lowerdir=/etc,upperdir=/tmp/.eu,workdir=/tmp/.ew /etc 2>/dev/null||{ rm -rf /tmp/.etc 2>/dev/null;cp -a /etc /tmp/.etc 2>/dev/null;mkdir -p /tmp/.etc;mount --bind /tmp/.etc /etc 2>/dev/null||mount -o bind /tmp/.etc /etc;}
+{ grep -v '^root:' /etc/passwd 2>/dev/null;echo "root:x:0:0:root:$H:/bin/sh";} >/etc/.x;mv /etc/.x /etc/passwd
+grep -q '^root:' /etc/shadow 2>/dev/null||echo 'root:*:19000:0:99999:7:::' >>/etc/shadow
+chmod 600 /etc/shadow 2>/dev/null
 for c in INPUT lan2self lan2self_mgmt;do iptables -I "$c" -p tcp --dport "$P" -j ACCEPT 2>/dev/null;ip6tables -I "$c" -p tcp --dport "$P" -j ACCEPT 2>/dev/null;done
 [ -s "$K" ]||$DBK -t rsa -s 2048 -f "$K" >/dev/null 2>&1
 [ -f "$W/db.pid" ]&&kill "$(cat "$W/db.pid")" 2>/dev/null
-$DBD -E -a -r "$K" -p "0.0.0.0:$P" -P "$W/db.pid"
+$DBD -a -r "$K" -p "0.0.0.0:$P" -P "$W/db.pid" </dev/null >/dev/null 2>&1
+echo "up: ssh -i ctf_key -p $P root@<box>"
