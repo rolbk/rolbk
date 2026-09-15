@@ -22,13 +22,13 @@ __*Stories from the Open Source Smart Home (Office) - Part 4*__
 
 ## The Great Toilet Crisis of 2021
 
-Picture this: A thriving tech company. Twenty-something male engineers. One toilet stall. You can see where this is going.
+Picture this: a thriving tech company, twenty-something male engineers... and one toilet stall.
 
-The daily dance was predictable: You'd feel nature's call, walk to the bathroom with confidence, only to find the stall occupied. Then came the walk of shame back to your desk, where you'd sit and wonder, "Is it free yet? Should I check again? How long is too long to wait?"
+The daily dance was predictable: You'd feel nature's call and walk over to the bathroom, only to find it occupied. Then you'd do the walk of shame back to your desk and sit there wondering whether it was free yet, whether you should check again, and how long was too long to wait.
 
 One stall was already bad enough - but it was the he *uncertainty* turned every bathroom break into a gamble. You'd walk all the way to the bathroom (a whole 20 meters!), find it occupied, and then have to walk ALL THE WAY BACK to your desk. That's 40 meters of completely unnecessary locomotion. Multiply that by 20 engineers, several times a day, and we're talking about kilometers of wasted movement.
 
-We were engineers. We over-engineered every microservice and CI/CD pipeline. But we couldn't figure out if the toilet was free without physically walking there.
+We were engineers. We over-engineered every microservice, every config, every deployment, and every CI/CD pipeline. But we couldn't figure out if the toilet was free without physically walking there.
 
 Obviously, this was unacceptable.
 
@@ -88,7 +88,7 @@ Back to the drawing board.
 
 Maybe I could hide something in the door frame itself? 
 
-I spent an entire evening with my toolbox spread across the bathroom floor. First, I removed the entire lock mechanism from the door. Then I disassembled it completely, every single spring and pin laid out on paper towels on the floor.
+I spent a whole evening on the bathroom floor, removing the entire lock mechanism from the door and taking it apart completely, with every spring and pin laid out on paper towels around me.
 
 **The good news:** I found space inside the door frame cavity. <br>
 **The bad news:** There was no way to get power there without visible cables. <br>

@@ -25,9 +25,7 @@ There was just one thing. The day I moved in, holding that crusty remote control
 
 The urge of automation, the urge of IoT-fying something that probably shouldn't be IoT-fied. 
 
-You see, the flat did get quite warm in summer... like *seriously* warm, as loft flats do. Being able to automatically open windows based on temperature sensors or time schedules would be... useful? Sure, let's go with useful. Definitely not just an excuse to reverse-engineer a two-decade-old proprietary protocol.
-
-Because obviously, the solution to a warm apartment isn't opening the windows manually like a normal person. It's teaching them to open themselves.
+You see, the flat did get quite warm in summer... like *seriously* warm, as loft flats do. Being able to automatically open windows based on temperature sensors or time schedules would be... useful? Sure, let's go with useful. Definitely not just an excuse to reverse-engineer a two-decade-old proprietary protocol. Because (obviously) the solution to a warm apartment isn't opening the windows manually, it's teaching them to open themselves.
 
 *How hard could it be?*
 
@@ -84,13 +82,11 @@ Now we're getting somewhere! I grabbed my Flipper Zero and quickly captured the 
 
 Well... not quite. IR control meant no feedback about whether the window was actually open or closed. No way to know if the command succeeded. Plus, IR requires line of sight - meaning I'd need the controller mounted somewhere visible.
 
-I even found an IR-enabled smart plug that could learn and replay signals. I could have plugged it in near the window, connected it to Home Assistant, and called it a day. Functional? Maybe... But where was the challenge?
+I even found an IR-enabled smart plug that could learn and replay signals. I could have plugged it in near the window, connected it to Home Assistant, and called it a day. That would have been... functional. But I wanted to have something properly integrated.
 
 ### The Proprietary Wired Bus
 
-Some of these solutions were probably technically functional but deeply unsatisfying to my engineering soul.
-
-So I kept digging through [manuals](https://web.archive.org/web/20250911153605/https://www.meurer-shop.de/media/files_public/d8bf5d380b6ff5c3e3242802b04bc329/WLC%20100.pdf), and kept seeing references to this weird three-color bus system. Red, blue, yellow wires that could supposedly connect multiple windows together to... daisy-chain them? Open them simultaneously? Integrate them with some mysterious WLC control unit?
+Unhappy with all the other solutions, I kept digging through [manuals](https://web.archive.org/web/20250911153605/https://www.meurer-shop.de/media/files_public/d8bf5d380b6ff5c3e3242802b04bc329/WLC%20100.pdf), and kept seeing references to this weird three-color bus system. Red, blue, yellow wires that could supposedly connect multiple windows together to... daisy-chain them? Open them simultaneously? Integrate them with some mysterious WLC control unit?
 
 Hm.
 
@@ -211,9 +207,9 @@ I stood there for a solid minute, staring at my roof window as it slowly opened.
 
 ## The Permanent Installation
 
-Now for the hard part: making it permanent and invisible. Whatever I used had to be ESP-based, small enough to fit inside or right next to the control box, able to run from the board's rather particular 19.77V supply, and capable of interfacing with its 5.17V bus signals. Ideally, it would do all of that without burning down my apartment.
+Making it permanent and invisible was the hard part. Whatever I used had to be ESP-based, small enough to fit inside or right next to the control box, run from the board's rather particular 19.77V supply, and interface with its 5.17V bus signals. Ideally, it also had to do all of that without burning down my apartment.
 
-After considering various ESP boards, I discovered the Shelly Uni, a small ESP8266 board designed for retrofitting dumb devices:
+After looking at various ESP boards, I found the Shelly Uni, a small ESP8266 board made for retrofitting dumb devices:
 
 - Tiny footprint (smaller than a matchbox)
 - Accepts 12-36V DC supply voltage
@@ -225,9 +221,9 @@ The only problem? Documentation.
 
 Now, I usually appreciate Shelly's open-source friendliness - they add reflashing headers to their devices and officially support Home Assistant integration. But the documentation for the Uni? Let's just say it was... sparse. They provided wiring examples that would work with their official firmware, sure. But a board schematic? ESP GPIO pinout mapping? Any details about what connects to what internally? Nope.
 
-Thankfully, the Tasmota community (ESPHome's "competitor" in the custom firmware space) had already done the hard work. They'd reverse-engineered the entire pinout through careful probing and documented everything: GPIO4 and GPI15 for the optocouplers, GPIO17 for ADC input, GPIO0 for the onboard LED. After acquiring a programming adapter for the 1.27mm pitch headers (they had to keep it compact somehow), I could finally flash ESPHome onto it.
+Luckily, the Tasmota community (ESPHome's "competitor" in the custom firmware space) had already done the hard work and reverse-engineered the entire pinout through careful probing: GPIO4 and GPI15 for the optocouplers, GPIO17 for ADC input, GPIO0 for the onboard LED. After acquiring a programming adapter for the 1.27mm pitch headers (they had to keep it compact somehow), I could finally flash ESPHome onto it.
 
-*Funny sidenote: Did you know you can use a Wemos D1 mini as UART adapter? I somehow managed to fry my dedicated USB-to-serial adapter, so I improvised by wiring another Wemos' RX/TX pins to the Shelly's programming header. You just need to tape down the reset button on the Wemos, and it works perfectly.*
+*Funny sidenote: Did you know you can use a Wemos D1 mini as UART adapter? I somehow managed to fry my dedicated USB-to-serial adapter, so I improvised by wiring another Wemos' RX/TX pins to the Shelly's programming header. You just need to tape down the reset button on the Wemos, but then it works perfectly.*
 
 ### The Electronics
 

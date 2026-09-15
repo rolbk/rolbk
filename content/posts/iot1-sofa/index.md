@@ -16,7 +16,7 @@ Or: How I hooked up my Sofa to Home Assistant
 
 __*Stories from the Open Source Smart Home - Part 1*__
 
-When I was shopping for furniture for my new flat, I stumbled upon the Corner Sofa *Merlin*. Its slim section could extend into a full guest bed, which was already convenient whenever someone stayed over. What really sold me, however, was the control panel built into the side: two buttons drove the entire mechanism. **Two. Electric. Buttons.**
+When my grandma and me were shopping for furniture for my new flat, we stumbled upon the Corner Sofa *Merlin*. Its slim section extends into a full guest bed, which is already handy whenever someone stays over. What really sold me, though, was the control panel on the side: two buttons drive the entire mechanism. **Two. Electric. Buttons.**
 
 ![merlin](merlin.webp)
 
@@ -28,9 +28,9 @@ My second one was
 
 > I need to IoT-ify this bad boy.
 
-Because apparently, I'm the kind of person who looks at perfectly functional furniture and thinks, "You know what this needs? An IP address."
+Because apparently, I can't look at perfectly functional piece of furniture without thinking: "You know what this needs? An IP address."
 
-Two days after delivery, I already had the sofa flipped on its back with my screwdriver in hand. What followed was a dramatic tale in three acts.
+Two days after delivery, I already had the sofa flipped on its back with my screwdriver in hand. What followed was a dramatic tale - in three acts.
 
 ---
 
@@ -38,7 +38,7 @@ Two days after delivery, I already had the sofa flipped on its back with my scre
 
 ![recon](recon.webp)
 
-Getting inside without destroying my brand-new sofa was the first challenge. Fortunately, access was surprisingly easy: flip it onto its back, unscrew the right rear leg, and remove the staples holding the cover cloth in that corner. A couple of minutes later, I was lying next to an upside-down sofa and shining a flashlight into its guts.
+The first challenge was getting inside my brand-new sofa without destroying it. Luckily, that was surprisingly easy: flip it onto its back, unscrew the right rear leg, and remove the staples holding the cover cloth in that corner. A couple of minutes later, I was lying next to an upside-down sofa, shining a flashlight into the darkness.
 
 The hardware inside was just as simple: an electrically extendable piston, a power supply, and a suspicious black control box tying everything together. I unscrewed the box, opened it, and found a small circuit board inside.
 
