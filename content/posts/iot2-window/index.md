@@ -15,7 +15,7 @@ __*Stories from the Open Source Smart Home - Part 2*__
 
 ## The Itch
 
-Back in my Salzburg days, I lived in a wonderful loft flat. It was ten minutes from the city, with gorgeous views, a great neighborhood, and a landlord below me who basically treated me as family - the kind of relationship where you'd have dinner together and chat about life. The flat itself was bright and spacious, with high ceilings and a traditional wooden interior.
+Back in my Salzburg days, I lived in a wonderful loft flat. It was ten minutes from the city, with an amazing view to the Castle Hohensalzburg, a lovely neighborhood (I'm only saying "Garden Bell"), and a landlord below me who basically treated me as family - the kind of relationship where you'd have dinner together and chat about life. The flat itself was bright and spacious, with high ceilings and a traditional wooden interior.
 
 And most importantly: Electrically operated roof windows that opened directly to the starlit night sky.
 
