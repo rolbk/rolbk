@@ -1,6 +1,6 @@
 +++
 title = "Hacking My Home Router, Part 1"
-summary = "After Yallo removed bridge mode from its fiber router, Aaron and I desoldered the NAND from a spare unit and extracted the raw firmware."
+summary = "When Yallo removes bridge mode on my Home Router after explicitly promising it, then I'll just re-enable it myself - even if it means desoldering the NAND and extracting the raw firmware."
 author = "Emanuel Mairoll"
 date= "2026-09-05"
 tags = ['Hardware Hacking', 'Reverse Engineering', 'Router', 'Firmware', 'NAND', 'BGA']
